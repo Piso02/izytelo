@@ -1,0 +1,56 @@
+
+/* logo izytelo */
+span.logo {
+    color: #137C8B;
+    font-weight: bold;
+}
+
+/* nav */
+nav {
+    height: 10%;
+}
+a.navbar-brand {
+    font-size: 3em;
+}
+    /* nav-link list */
+    a.nav-link {
+        font-weight: bold;
+    }
+    a.nav-link:hover {
+        font-weight: normal;
+        border:4px solid #709CA7;
+        border-right:none;
+        border-left:none;
+        border-top: none;
+    }
+
+    /* media queries navbar */
+        /*on max size*/
+        @media screen and (min-width:600px) {
+            .collapse.navbar-collapse {
+                margin-left: 40%;
+            }
+            a.navbar-brand {
+                padding-left: 1%;
+            }
+            .nav-item {
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+        }
+        /*on min size*/
+        @media screen and (max-width:600px)  {
+            a.navbar-brand {
+                font-size: 2em;
+            }
+        }
+
+/* landing page */
+    .jumbotron {
+        width: 100%;
+        height: 70%;
+        background-position: center center;
+        background-size: cover;
+        background-image: url(img/banner.jpg);
+    } 
+    /* writed content */
