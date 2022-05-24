@@ -118,20 +118,38 @@ a.navbar-brand {
         margin-top: 7%;
         padding-left: 5%;
     }
-        /*on min size*/
-        @media screen and (max-width:600px)  {
-            .col-sm {
-            margin: 0 auto;
-        }
-    }   
     
-    /* card 
+    /* card */
     div.col-sm {
         text-align: center;
-        width: 120px;
     } 
-    .card-img {
-        width: 100px;
-        height: 100px;
+    .img-fluid {
+        max-width: 60%;
+        height: auto;
+        margin-bottom: 8%;
     } 
+    .img-fluid2 {
+        max-width: 40%;
+        height: auto;
+        margin-bottom: 8%;
+    } 
+            /*on min size */
+        @media screen and (max-width:600px)  {           
+            .img-fluid {
+                max-width: 40%;
+                height: auto;
+                margin-bottom: 2%;
+            }
+            .img-fluid2 {
+                margin-top: 10%;
+            }
+        }
+    .img-fluid3 {
+        max-width: 60%;
+        height: auto;
+        margin-bottom: 2%;
+    }
     
+    .caption {
+        font-weight: bold;
+    }
