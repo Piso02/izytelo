@@ -117,6 +117,7 @@ a.navbar-brand {
     .container-grid {
         margin-top: 7%;
         padding-left: 5%;
+        margin-bottom: 7%;
     }
     
     /* card */
@@ -144,12 +145,18 @@ a.navbar-brand {
                 margin-top: 10%;
             }
         }
-    .img-fluid3 {
-        max-width: 60%;
-        height: auto;
-        margin-bottom: 2%;
-    }
-    
+
     .caption {
         font-weight: bold;
+    }
+
+/* Quotes */
+    .card {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+
+/* Footer */
+    .footer {
+        margin-top: 10%;
     }
