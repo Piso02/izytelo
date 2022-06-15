@@ -1,7 +1,12 @@
 
+html, body {
+    height: 100%;
+}
+
+
 /* logo izytelo */
 span.logo {
-    color: #137C8B;
+    color: #5CAFE7;
     font-weight: bold;
 }
 
@@ -11,10 +16,12 @@ nav {
 }
 a.navbar-brand {
     font-size: 3em;
+    color: inherit;
 }
     /* nav-link list */
     a.nav-link {
-        font-weight: bold;
+        text-decoration: none;
+        color: inherit;
     }
     a.nav-link:hover {
         font-weight: normal;
@@ -22,67 +29,24 @@ a.navbar-brand {
         border-right:none;
         border-left:none;
         border-top: none;
+        color: inherit;
     }
 
-    /* media queries navbar */
-        /*on max size*/
-        @media screen and (min-width:600px) {
-            .collapse.navbar-collapse {
-                margin-left: 40%;
-            }
-            a.navbar-brand {
-                padding-left: 1%;
-            }
-            .nav-item {
-                padding-left: 30px;
-                padding-right: 30px;
-            }
-        }
-        /*on min size*/
-        @media screen and (max-width:600px)  {
-            a.navbar-brand {
-                font-size: 2em;
-            }
-            a.nav-link {
-                background-color: #B8CBD0;
-            }
-        }
+/* gradient */
+.gradient {
+    background: rgb(6,3,42);
+    background: linear-gradient(90deg, rgba(6,3,42,1) 0%, rgba(9,90,121,1) 35%, rgba(192,227,235,1) 100%); 
+    }
 
-/* landing page */
-    /*.jumbotron {
-        width: 100%;
-        height: 70%;
-        background-position: center center;
-        background-size: cover;
-        /*background-image: url(img/banner.jpg);
-    } */
-        .jumbotron {
-            padding-left: 0%;
-        }
-    /* writed content */
-        /* media queries container-jumbo */
-            /*on max size*/
-            @media screen and (min-width:600px) {
-            .container-jumbo {
-                margin-top: 5%;
-                padding-left: 5%;
-                width: 40%;
-            }
-        }
-            /*on min size*/
-        @media screen and (max-width:600px)  {
-            .container-jumbo {
-                margin-top: 5%;
-                padding-left: 5%;
-                width: 70%;
-            }
-        }
-        a.btn.btn-lg {
-            background-color: #709CA7;
-            color: white;
-        }
+/*landing page*/
+.page-header {
+    margin-top: 4rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;;
+}
 
-/* container-about */
+
+/* container-about 
     .container-about {
         margin-top: 10%;
         padding-left: 5%;
@@ -106,21 +70,21 @@ a.navbar-brand {
             width: 50%;
             margin: 0 auto;
         }
-            /*on min size*/
+            /*on min size
         @media screen and (max-width:600px)  {
             .p.about-landing {
                 width: 100%;
             }
         }
 
-/* Grid */
+/* Grid 
     .container-grid {
         margin-top: 7%;
         padding-left: 5%;
         margin-bottom: 7%;
     }
     
-    /* card */
+    /* card 
     div.col-sm {
         text-align: center;
     } 
@@ -134,7 +98,7 @@ a.navbar-brand {
         height: auto;
         margin-bottom: 8%;
     } 
-            /*on min size */
+            /*on min size 
         @media screen and (max-width:600px)  {           
             .img-fluid {
                 max-width: 40%;
@@ -150,13 +114,13 @@ a.navbar-brand {
         font-weight: bold;
     }
 
-/* Quotes */
+/* Quotes 
     .card {
         max-width: 70%;
         margin: 0 auto;
     }
 
-/* Footer */
+/* Footer 
     .footer {
         margin-top: 10%;
     }
