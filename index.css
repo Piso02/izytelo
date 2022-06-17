@@ -45,6 +45,21 @@ a.navbar-brand {
     font-family: 'Montserrat', sans-serif;;
 }
 
+/* about */
+.about {
+    margin-bottom: 6%;
+}
+
+/* services */
+.img-fluid {
+    max-width: 70%;
+    height: auto;
+} 
+
+/* why */
+.feature {
+    margin-top: 5%;
+}
 
 /* container-about 
     .container-about {
